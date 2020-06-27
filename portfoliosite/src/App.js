@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
+        <div>
     <Layout fixedHeader>
-        <Header className="header-color" title={<strong>Home</strong>}>
+        <Header className="header-color" title={<strong>Home</strong>} >
             <Navigation>
                 <Link to="/projects">Projects</Link>
                 <Link to="/aboutme">About Me</Link>
