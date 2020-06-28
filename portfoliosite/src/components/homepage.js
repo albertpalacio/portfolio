@@ -38,7 +38,7 @@ class HomePage extends Component {
                    </Cell>
 
               </Grid>
-              <Contact />
+             
           </div>
          
       )
