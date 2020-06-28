@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import '../styles/homepage.css'
+import Contact from './contact'
 
 
 class HomePage extends Component {
@@ -37,8 +38,9 @@ class HomePage extends Component {
                    </Cell>
 
               </Grid>
-          
+             
           </div>
+         
       )
   }
 }
