@@ -30,11 +30,12 @@ class Contact extends Component {
                <List>
                  <ListItem>
                       <ListItemContent style={ { fontSize: '25px', fontFamily: 'Anton' }}>
-                         <i className="fa fa-envelope" aria-hidden="true" />
+                        <a href="mailto: albertpalacio@outlook.com"> <i className="fa fa-envelope" aria-hidden="true" />
+                        </a>
                         Albertpalacio@outlook.com
                          
                           </ListItemContent>
-
+                          
                 </ListItem>
                  
                 </List>
