@@ -31,7 +31,7 @@ class HomePage extends Component {
                             <i className="fa fa-linkedin-square"  aria-hidden="true" />
                           </a>
                            {/* Github*/}
-                          <a href="https://www.google.com" rel="noopener noreferrer" target="_blank" >
+                          <a href="https://github.com/albertpalacio" rel="noopener noreferrer" target="_blank" >
                             <i className="fa fa-github-square"  aria-hidden="true" />
                           </a>
                        
