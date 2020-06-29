@@ -8,16 +8,16 @@ class Projects extends Component {
         this.state = { activeTab: 0};
     }
     
-
+ 
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return(
 
                 <div>
                     
-                    <h1> This is Housed</h1>
+                    <h1> Full Stack Project - Housed</h1>
                     <Card shadow={8} style={{minWidth: '650', margin: 'auto'}}>
-                        <CardTitle style={{color: 'orange', height: '176px', background: 'url(https://i.imgur.com/QdhLgtf.png) center/cover' }} >Housed Project</CardTitle>
+                        <CardTitle style={{color: 'orange', height: '176px', background: 'url(https://i.imgur.com/QdhLgtf.png) center/cover' }} ></CardTitle>
                         <CardText>
                            <ul>
                                <li>
@@ -46,9 +46,9 @@ class Projects extends Component {
             return (
                 <div>
                     
-                <h1> This is Brewskis</h1>
+                <h1> Full Stack Project - Brewskis</h1>
                 <Card shadow={8} style={{minWidth: '650', margin: 'auto'}}>
-                    <CardTitle style={{color: 'orange', height: '176px', background: 'url(https://i.imgur.com/QdhLgtf.png) center/cover' }} >Brewskis Project</CardTitle>
+                    <CardTitle style={{color: 'orange', height: '176px', background: 'url(https://i.imgur.com/QdhLgtf.png) center/cover' }} ></CardTitle>
                     <CardText>
                     <ul>
                         <li>
@@ -128,15 +128,15 @@ class Projects extends Component {
 
   render() {
       return(
-          <div className="tabs">
-             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                <Tab>
+          <div className="tabs" style={{background: 'linear-gradient(to right, #2c3e50, #2980b9)'}}>
+             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })}  ripple>
+                <Tab style={{color: 'black', fontWeight: 'bold'}}>
                     Housed
                  </Tab>
-                 <Tab>
+                 <Tab style={{color: 'black', fontWeight: 'bold'}}>
                      Brewskis
                  </Tab>
-                 <Tab>
+                 <Tab style={{color: 'black', fontWeight: 'bold'}}>
                      Smaller Projects
                  </Tab>
              </Tabs>
