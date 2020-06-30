@@ -8,7 +8,7 @@ function App() {
   return (
         <div>
     <Layout fixedHeader>
-        <Header className="header-color" >
+        <Header className="header-color" title={`Albert's Portfolio`} >
            
         </Header>
         <Drawer title={<Link style={{ textDecoration: 'underline', color: 'black'}} to='/'> Portfolio</Link>}>
