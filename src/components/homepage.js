@@ -18,6 +18,7 @@ class HomePage extends Component {
                   />
                   <div className="banner-text">
                       <h1> Full Stack Web Developer</h1>
+                      <h2> Albert Palacio</h2>
 
                       <hr />
                       
@@ -27,11 +28,11 @@ class HomePage extends Component {
                      
                       <div className="socials">
                         {/* LinkedIn*/}
-                          <a href="https://www.linkedin.com/in/albert-palacio-047533144/" rel="noopener noreferrer" target="_blank" >
+                          <a href="www.linkedin.com/in/albertpalacio" rel="noreferrer" target="_blank" >
                             <i className="fa fa-linkedin-square"  aria-hidden="true" />
                           </a>
                            {/* Github*/}
-                          <a href="https://github.com/albertpalacio" rel="noopener noreferrer" target="_blank" >
+                          <a href="https://github.com/albertpalacio" rel="noreferrer" target="_blank" >
                             <i className="fa fa-github-square"  aria-hidden="true" />
                           </a>
                        
