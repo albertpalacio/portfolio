@@ -31,8 +31,8 @@ class Projects extends Component {
                            </ul>
                         </CardText>
                         <CardActions border>
-                            <Button colored href="https://github.com/albertpalacio/housed" target="_blank">Github</Button>
-                            <Button colored href="https://gethoused.herokuapp.com/" target="_blank">Live Demo</Button>
+                            <Button colored href="https://github.com/albertpalacio/housed" target="_blank" rel="noopener noreferrer">Github</Button>
+                            <Button colored href="https://gethoused.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
@@ -62,8 +62,8 @@ class Projects extends Component {
                            </ul>
                     </CardText>
                     <CardActions border>
-                        <Button colored href="https://github.com/albertpalacio/Midterm-Project-" target="_blank">Github</Button>
-                        <Button colored href="https://brewskis-breweries.herokuapp.com/" target="_blank">Live Demo</Button>
+                        <Button colored href="https://github.com/albertpalacio/Midterm-Project-" target="_blank" rel="noopener noreferrer" >Github</Button>
+                        <Button colored href="https://brewskis-breweries.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -71,57 +71,7 @@ class Projects extends Component {
                 </Card>
                 </div>
             )
-        } else if(this.state.activeTab === 2) {
-            return (
-               <div>
-                   <h1> Smaller Projects</h1>
-
-                     <div className="projects-grid">
-                
-                <Card shadow={8} style={{minWidth: '650', margin: 'auto'}}>
-                    <CardTitle style={{color: 'orange', height: '176px', background: 'url(https://i.imgur.com/QdhLgtf.png) center/cover' }} >Birthday Tracker</CardTitle>
-                    <CardText>
-                        This web app was created etc... ... .. ..
-                    </CardText>
-                    <CardActions border>
-                        <Button colored href="https://github.com/albertpalacio/Midterm-Project-" target="_blank">Github</Button>
-                        <Button colored href="https://brewskis-breweries.herokuapp.com/" target="_blank">Live Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-                <Card shadow={8} style={{minWidth: '650', margin: 'auto'}}>
-                    <CardTitle style={{color: 'orange', height: '176px', background: 'url(https://i.imgur.com/QdhLgtf.png) center/cover' }} >To Do App</CardTitle>
-                    <CardText>
-                        This web app was created etc... ... .. ..
-                    </CardText>
-                    <CardActions border>
-                        <Button colored href="https://github.com/albertpalacio/Midterm-Project-" target="_blank">Github</Button>
-                        <Button colored href="https://brewskis-breweries.herokuapp.com/" target="_blank">Live Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-                <Card shadow={8} style={{minWidth: '650', margin: 'auto'}}>
-                    <CardTitle style={{color: 'orange', height: '176px', background: 'url(https://i.imgur.com/QdhLgtf.png) center/cover' }} >Mern Blog</CardTitle>
-                    <CardText>
-                        Blog created using the MERN stack.
-                    </CardText>
-                    <CardActions border>
-                        <Button colored href="https://github.com/albertpalacio/Midterm-Project-" target="_blank">Github</Button>
-                        <Button colored href="https://brewskis-breweries.herokuapp.com/" target="_blank">Live Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-                </div>
-            </div>
-            )
-        }
-
+        } 
     }
  
 
@@ -136,9 +86,7 @@ class Projects extends Component {
                  <Tab style={{color: 'black', fontWeight: 'bold'}}>
                      Brewskis
                  </Tab>
-                 <Tab style={{color: 'black', fontWeight: 'bold'}}>
-                     Smaller Projects
-                 </Tab>
+                
              </Tabs>
                  <Grid className="main-div">
 
