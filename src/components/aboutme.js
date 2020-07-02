@@ -17,8 +17,18 @@ class AboutMe extends Component {
           <h4>
             Here I was able to acquire the knowledge to become a Full Stack Web
             Developer. I found my love for coding during this time and even more
-            the love for Front-End technologies. s
+            the love for Front-End technologies. The ability to let your
+            creativity flow and design simple yet elegant websites motivates me
+            to keep growing.
           </h4>
+
+          <h5> Download My Resume! Click Here ---></h5>
+          <a
+            href="../../resume/AlbertPalacioResume.pdf"
+            download="AlbertPalacioResume"
+          >
+            <button className="clickme">Yes, here!</button>
+          </a>
         </div>
       </div>
     );

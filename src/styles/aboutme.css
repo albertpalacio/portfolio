@@ -13,7 +13,7 @@
 }
 
 .about-div {
-  background-color: whitesmoke;
+  background-color: black;
   opacity: 0.8;
   width: 50%;
   margin: auto;
@@ -22,11 +22,26 @@
 }
 
 .about-div h1 {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
 .about-div h4 {
-  color: black;
+  color: white;
   text-align: center;
+}
+
+.about-div h5 {
+  color: lightgreen;
+}
+
+.clickme {
+  background-color: #eeeeee;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
 }
