@@ -19,6 +19,8 @@
   margin: auto;
   border-radius: 10px;
   opacity: 0.5;
+
+  text-align: center;
 }
 
 .about-div h1 {
@@ -36,12 +38,24 @@
 }
 
 .clickme {
-  background-color: #eeeeee;
+  background-color: lightskyblue;
   padding: 8px 20px;
   text-decoration: none;
+  border: 2px solid cyan;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   height: 50px;
   width: 200px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.clickme:hover {
+  background: lightblue;
+}
+
+.download-me {
+  text-align: center;
+  margin: auto;
 }

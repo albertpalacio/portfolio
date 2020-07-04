@@ -21,14 +21,18 @@ class AboutMe extends Component {
             creativity flow and design simple yet elegant websites motivates me
             to keep growing.
           </h4>
+          <div classname="download-me">
+            <div>
+              <h5> Download My Resume! Click Over There!</h5>
 
-          <h5> Download My Resume! Click Here ---></h5>
-          <a
-            href="../../resume/AlbertPalacioResume.pdf"
-            download="AlbertPalacioResume"
-          >
-            <button className="clickme">Yes, here!</button>
-          </a>
+              <a
+                href="../../resume/AlbertPalacioResume.pdf"
+                download="AlbertPalacioResume"
+              >
+                <button className="clickme">Yes, here!</button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     );
