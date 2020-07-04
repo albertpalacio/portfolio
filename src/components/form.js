@@ -7,7 +7,7 @@ const Form = () => {
       <hr />
 
       <h1>Send Me A Message</h1>
-      <form class="cf">
+      <form class="cf" action="https://submit-form.com/AX04vYxzcs5pdDYkLg2L0">
         <div class="half left cf">
           <input type="text" className="input-form" placeholder="Name" />
           <input
