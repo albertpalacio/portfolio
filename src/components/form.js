@@ -25,7 +25,7 @@ const Form = () => {
             placeholder="Message"
           ></textarea>
         </div>
-        <input type="submit" value="Submit" id="input-submit" />
+        <input className="form-btn" type="submit" value="Submit" />
       </form>
     </div>
   );

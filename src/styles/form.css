@@ -20,3 +20,21 @@
   margin-top: 10px;
   resize: none;
 }
+
+.form-div input,
+textarea {
+  border: 2px solid lightslategray;
+  margin: 5px;
+}
+
+.form-btn {
+  width: 90px;
+  height: 25px;
+  border-radius: 5%;
+  background: whitesmoke;
+}
+
+.form-btn:hover {
+  background-color: lightskyblue;
+  cursor: pointer;
+}
