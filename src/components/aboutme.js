@@ -26,7 +26,7 @@ class AboutMe extends Component {
               <h5> Download My Resume! Click Over There!</h5>
 
               <a
-                href="../../resume/AlbertPalacioResume.pdf"
+                href="https://docdro.id/37aBYUa"
                 download="AlbertPalacioResume"
               >
                 <button className="clickme">Yes, here!</button>
