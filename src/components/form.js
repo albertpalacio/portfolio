@@ -13,7 +13,7 @@ const Form = () => {
           <input
             type="email"
             className="input-form"
-            placeholder="Email address"
+            placeholder="Email"
           />
           <input type="text" className="input-form" placeholder="Subject" />
         </div>
