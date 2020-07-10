@@ -78,7 +78,7 @@ class Projects extends Component {
               style={{
                 color: "orange",
                 height: "176px",
-                background: "url(https://i.imgur.com/QdhLgtf.png) center/cover",
+                background: "url(https://i.imgur.com/PR41oxA.png) center/cover",
               }}
             ></CardTitle>
             <CardText>
